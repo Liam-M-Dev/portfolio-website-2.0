@@ -9,6 +9,9 @@ export default {
       heading: ["Inter", 'sans-serif'],
       content: ["Montserrat", "sans-serif"]
     },
+    maxWidth: {
+      tenPercentLess: "90%"
+    }
   },
   plugins: [],
 }
