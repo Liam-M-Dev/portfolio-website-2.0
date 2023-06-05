@@ -5,7 +5,7 @@ export default function HomePage(){
 
     return(
         
-        <main>
+        <main className="box-border flex flex-col justify-between">
             <h1 className="font-bold">
                 Liam Massey
             </h1>
