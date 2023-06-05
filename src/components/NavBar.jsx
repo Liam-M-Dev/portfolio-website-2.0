@@ -9,8 +9,8 @@ export function NavBar(){
 
     return(
         <nav className="block flex justify-center py-4 bg-black" >
-            <ul className="flex flex-row justify-between flex-grow text-white text-lg font-extrabold font-sans">
-                <li className="ml-4">
+            <ul className="flex flex-row justify-evenly flex-grow text-white font-heading text-lg font-bold">
+                <li>
                     <NavLink to="/about">About</NavLink>
                 </li>
                 
@@ -18,7 +18,7 @@ export function NavBar(){
                     <NavLink to="/projects">Projects</NavLink>
                 </li>
                 
-                <li className="mr-4">
+                <li>
                     <NavLink to="/contact">Contact</NavLink>
                 </li>
             </ul>
