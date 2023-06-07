@@ -1,4 +1,4 @@
-
+import PropTypes from "prop-types"
 
 export function CardDisplay(props) {
     
@@ -15,4 +15,11 @@ export function CardDisplay(props) {
             </div>
         </div>
     )
+}
+
+CardDisplay.propTypes = {
+    image: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
 }

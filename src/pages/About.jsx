@@ -11,8 +11,8 @@ export function AboutPage(){
                 </h1>
 
                 <p>
-                    My name is Liam and I'm a <strong>junior full stack web developer</strong>.
-                    I'm a creative person with a natural desire to problem solve and take on challenges.
+                    My name is Liam and I&apos;m a <strong>junior full stack web developer</strong>.
+                    I&apos;m a creative person with a natural desire to problem solve and take on challenges.
                     What interests me with web development, is the process of translating an idea into a fully functional site.
                     I have a strong interest in backend development and database creation/management.
                     Outside of web development, I have a keen interest in movies, board gaming, music both at home and live, seeing art exhibitions and writing poetry.
