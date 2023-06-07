@@ -1,17 +1,17 @@
 
 
-export function CardDisplay(img, title, description, link) {
+export function CardDisplay(props) {
     
     
     return(
         <div>
             <div>
-                <img src={img} alt="project image" />
+                <img src={props.image} alt="project image" />
             </div>
             <div>
-                <h3>{title}</h3>
-                <p>{description}</p>
-                <a href={link}>Repo</a>
+                <h3>{props.title}</h3>
+                <p>{props.description}</p>
+                <a href={props.link}>Repo</a>
             </div>
         </div>
     )
