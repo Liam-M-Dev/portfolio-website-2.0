@@ -4,9 +4,9 @@ export function CardDisplay(props) {
     
     
     return(
-        <div className="border-box border-2 border-black w-40 p-1">
+        <div className="border-box border-2 border-black w-40 p-1 mt-2">
             <div>
-                <img src={props.image} alt="project image" className="w-7/12 mx-auto" />
+                <img src={props.image} alt="project image" className="w-9/12 mx-auto" />
             </div>
             <div>
                 <h3 className="font-heading">{props.title}</h3>
