@@ -4,7 +4,7 @@ export function Footer(){
 
 
     return(
-        <div className="flex flex-row justify-between w-full absolute left-0 bottom-0 right-0 py-5">
+        <div className="flex flex-row justify-between w-full fixed left-0 bottom-0 right-0 py-5 bg-white">
             <ul className="ml-10 font-content text-content text-base">
                 <li>
                    <a href="https://github.com/Liam-M-Dev">
