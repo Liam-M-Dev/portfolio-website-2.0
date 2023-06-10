@@ -12,7 +12,7 @@ export default function HomePage(){
                 </h1>
 
                 <figure className="max-w-screen">
-                    <img className="w-3/5 mx-auto" src={liamlogo} alt="Logo for Liam Massey web development, acts as homepage button" />
+                    <img className="w-11/12 mx-auto" src={liamlogo} alt="Logo for Liam Massey web development, acts as homepage button" />
                 </figure>
 
                 <h3 className="font-heading mt-5 mb-5 text-center text-lg">Full Stack Developer</h3>
