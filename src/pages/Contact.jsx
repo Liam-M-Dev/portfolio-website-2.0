@@ -3,7 +3,7 @@
 export function ContactPage(){
 
     return(
-        <main className="border-box flex flex-col justify-center align-center h-screen mx-auto">
+        <main className="border-box flex flex-col justify-center align-center h-96 mx-auto">
             <section className="border-box mx-auto ">
                 <h1 className="font-heading font-bold text-lg mb-10">Want to chat?</h1>
                 <div className="font-content text-sm">
