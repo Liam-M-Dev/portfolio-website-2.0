@@ -4,7 +4,7 @@ export function CardDisplay(props) {
     
     
     return(
-        <div className="border-box border-2 border-black w-40 p-1 mt-2">
+        <div className="border-box flex flex-row flex-wrap border-2 border-black w-40 p-1 mt-2 md:w-60">
             <div>
                 <img src={props.image} alt="project image" className="w-9/12 mx-auto" />
             </div>
