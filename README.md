@@ -5,7 +5,7 @@
 The purpose of this was to build a new portfolio website using the JavaScript framework React and CSS framework TailwindCSS.  
 I wanted to develop a better understanding on how react components worked and how to use a CSS framework to do the styling.  
 
-This is a work in progress, as there are features I would like to implement which is touched on in the features section of the readme
+There are a few features to be still implemented, some minor responsive fixes to larger screens, a dark mode/light mode and some interactivity with page links.
 
 ## Technologies
 
@@ -15,7 +15,5 @@ This is a work in progress, as there are features I would like to implement whic
 - Chrome dev tools
 - Git
 - Development done in VScode
-
-## Features
 
 ## Screenshots

@@ -9,7 +9,7 @@ export function ContactPage(){
                 <div className="font-content text-sm">
                     <p>I&apos;m always keen to collaborate or if you have a question.</p>
                     <p>Drop us a line via my email.</p>
-                    <p>liammassey-dev@gmail.com</p>
+                    <a href="mailto:liammassey-dev@gmail.com">liammassey-dev@gmail.com</a>
                 </div>
                 
             </section>
