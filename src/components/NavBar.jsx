@@ -8,8 +8,8 @@ export function NavBar(){
 
 
     return(
-        <nav className="flex justify-center py-4 bg-black" >
-            <ul className="flex flex-row justify-evenly flex-grow text-white font-heading text-lg font-bold">
+        <nav className="flex justify-center py-4 bg-black md:py-6 lg:py-4" >
+            <ul className="flex flex-row justify-evenly flex-grow text-white font-heading text-lg font-bold md:text-xl">
                 <li>
                     <NavLink to="/about">About</NavLink>
                 </li>
