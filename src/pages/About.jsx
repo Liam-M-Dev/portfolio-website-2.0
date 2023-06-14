@@ -6,7 +6,7 @@ export function AboutPage(){
     return(
         <main className="box-border flex flex-col justify-center">
             <section>
-                <h1 className="font-heading text-base font-bold my-2 ml-5 md:text-xl md:my-5">
+                <h1 className="font-heading text-base font-bold my-2 ml-5 md:text-xl md:my-5 lg:text-2xl">
                     About Me
                 </h1>
                 <div className="px-2 mr-5 md:px-20 xl:px-40 xl:mr-10">
@@ -26,8 +26,8 @@ export function AboutPage(){
                 
                 
                 <figure className="flex flex-row mt-5 mx-auto justify-center">
-                    <img className="object-contain w-52 md:w-4/12" src={myself} alt="A photo of my cat Patti and myself" />
-                    <img className="object-contain w-52 md:w-4/12" src={playing} alt="A photo of myself playing a board game" />
+                    <img className="object-contain w-52 md:w-4/12 lg:w-3/12" src={myself} alt="A photo of my cat Patti and myself" />
+                    <img className="object-contain w-52 md:w-4/12 lg:w-3/12" src={playing} alt="A photo of myself playing a board game" />
                 </figure>
             </section>
         </main>
