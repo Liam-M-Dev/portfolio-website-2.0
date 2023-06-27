@@ -12,10 +12,10 @@ export default function HomePage(){
                 </h1>
 
                 <figure className="max-w-screen">
-                    <img className="my-10 lg:my-5 w-11/12 md:w-10/12 mx-auto" src={liamlogo} alt="Logo for Liam Massey web development, acts as homepage button" />
+                    <img className="my-5 lg:my-5 w-11/12 md:w-10/12 lg:w-6/12 mx-auto" src={liamlogo} alt="Logo for Liam Massey web development, acts as homepage button" />
                 </figure>
 
-                <h3 className="font-heading mt-5 lg:mt-5 mb-5 text-center text-lg md:text-2xl">Full Stack Developer</h3>
+                <h3 className="font-heading mt-5 text-center text-lg md:text-2xl">Full Stack Developer</h3>
             </section>
         </main>
         
